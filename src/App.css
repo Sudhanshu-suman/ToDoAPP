@@ -1,0 +1,44 @@
+body{
+  background-color:black;
+}
+.App {
+  background-color:brown;
+  min-height:500px;
+  width:400px;
+  margin: 40px auto;
+  border-radius: 10px;
+}
+#to-do-form input{
+  background-color: rgba(43, 105, 7, 0.877);
+  color:rgb(14, 3, 3);
+  border: 0;
+  height: 50px;
+  width: 200px;
+  padding: 0 20px;
+  margin: 20px;
+  font-size:18px;
+  border-radius: 10px;
+  color: #fff;
+}
+#to-do-form input::placeholder{
+  color: blue;
+}
+#to-do-form button{
+  height: 50px;
+  width: 80px;
+  border-radius: 5px;
+  border: 0;
+  background-color: rgba(10, 233, 196, 0.884);
+  color: #fff;
+  font-weight: bolder;
+  cursor:pointer;  
+}
+#to-do-form button::placeholder{
+  color: black;
+}
+#to-do-form input:focus,#to-do-form button:focus{
+  outline:0;
+}
+
+
+
